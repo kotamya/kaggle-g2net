@@ -53,7 +53,7 @@ class Runner:
 
         # prediction and evaluation with validation data
         pred_valid = model.predict(valid_dataset)
-        _, score, _ = roc_auc_score(y_true=y_valid, y_pred=pred_valid)
+        _, score, _ = roc_auc_score(y_true=y_valid, y_score=pred_valid)
 
         # return model, index, prediction, and score
         return model, idx_valid, pred_valid, score
