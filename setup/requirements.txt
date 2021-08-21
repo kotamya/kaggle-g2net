@@ -1,0 +1,10 @@
+flake8
+jupyter
+lightgbm
+numpy==1.19.4
+pandas
+scikit-learn
+scikit-learn-intelex
+tensorflow
+tqdm
+
